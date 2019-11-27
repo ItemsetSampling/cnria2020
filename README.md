@@ -26,7 +26,7 @@ The minimum information tha CFPOF wants is the name of the dataset. If the other
   
   Note that, if the printCFPOF argument is set to 1 in order to output the CFPOF values of the transactions, then these values are not ordered here.<br>
   The following result with printCFPOF means that : 
-  cfpof(t_{37}, D)=0.6637168141592921
+  cfpof(t, D)=0.6637168141592921 where id(t)=27 and D=chess.
       
       >cfpof.py dataset:chess.num printCFPOF:1
       =======================================================
@@ -51,3 +51,6 @@ Now we define our own values for the difference arguments required by CFPOF :
               Preprocessing time (s) : 0.125
               CFPOF computational time (s) : 7.21875
       ============================END============================
+      
+      
+ 
