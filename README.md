@@ -8,3 +8,33 @@ This directory contains our additional materials for submission to the CNRIA'20 
 The main syntax to run the CFPOF algorithm is bellow : 
 
   <i>\>cfpof.py <b>dataset:</b>\<the name of the dataset\>  <b>maxLength:</b>\<the maximum length constraint\> <b>sampleSize:</b>\<the number of patterns to draw\> <b>printCFPOF:</b>\<<b>1</b> if you want to print the values, <b>0</b> otherwise\></i>
+
+The minimum information tha CFPOF wants is the name of the dataset. If the others required values are not given, then it uses the default values.
+
+      >cfpof.py dataset:chess.num
+      ===========================BEGIN===========================
+      ===============Under submission for CNRIA'20===============
+      CFPOF calculation ...
+      Dataset :  chess.num
+              No given maximum length constraint.
+                      Maximum length : 3 by default.
+              Preprocessing time (s) : 0.09375
+              No given sample size.
+                      Sample size : 1000 by default.
+              CFPOF computational time (s) : 0.859375
+      ============================END============================
+  
+  Note that, if the printCFPOF argument is set to 1 in order to output the CFPOF values of the transactions, then these values are not ordered here.
+      
+      >cfpof.py dataset:chess.num printCFPOF:1
+      =======================================================
+      CFPOF calculation ...
+      Dataset :  chess.num
+              No given maximum length constraint.
+                      Maximum length : 3 by default.
+              Preprocessing time (s) : 0.09375
+              No given sample size.
+                      Sample size : 1000 by default.
+              CFPOF computational time (s) : 1.046875
+      ===========================END==========================
+      {37: 0.6637168141592921, 94: 0.6548672566371682, 105: 0.7610619469026548, 121: 0.8230088495575221, 134: 0.7787610619469026, 192: 0.6991150442477876, 218: 0.6106194690265486, 291: 0.6637168141592921, ..., 19075: 0.46017699115044247, 23660: 0.36283185840707965}
