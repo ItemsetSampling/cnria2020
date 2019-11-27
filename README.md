@@ -9,6 +9,8 @@ The main syntax to run the CFPOF algorithm is bellow :
 
   <i>\>cfpof.py <b>dataset:</b>\<the name of the dataset\>  <b>maxLength:</b>\<the maximum length constraint\> <b>sampleSize:</b>\<the number of patterns to draw\> <b>printCFPOF:</b>\<<b>1</b> if you want to print the values, <b>0</b> otherwise\></i>
 
+<h2> Somme experiments with the <i>chess</i> dataset </h2>
+
 The minimum information that CFPOF wants is the name of the dataset. If the others required values are not given, then it uses the default values.
 
       >cfpof.py dataset:chess.num
@@ -24,8 +26,9 @@ The minimum information that CFPOF wants is the name of the dataset. If the othe
               CFPOF computational time (s) : 0.859375
       ============================END============================
   
+  
   Note that, if the printCFPOF argument is set to 1 in order to output the CFPOF values of the transactions, then these values are not ordered here.<br>
-  The following result with printCFPOF means that given the dataset D=chess and the sampled pattern, the transaction with an id equals to 37 has a cfpof equals to 0.6637168141592921. Formally :
+  The following result with printCFPOF means that given the dataset D=chess and the sampled patterns, the transaction with an id equals to 37 has a cfpof equals to 0.6637168141592921. Formally :
   cfpof(t, D)=0.6637168141592921 where id(t)=37 and D=chess.
       
       >cfpof.py dataset:chess.num printCFPOF:1
@@ -40,6 +43,8 @@ The minimum information that CFPOF wants is the name of the dataset. If the othe
               CFPOF computational time (s) : 1.046875
       ===========================END==========================
       {37: 0.6637168141592921, 94: 0.6548672566371682, 105: 0.7610619469026548, ..., 19075: 0.46017699115044247, 23660: 0.36283185840707965}
+      
+      
       
 Now we define our own values for the difference arguments required by CFPOF :
       
