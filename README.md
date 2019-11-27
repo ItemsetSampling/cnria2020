@@ -38,3 +38,14 @@ The minimum information tha CFPOF wants is the name of the dataset. If the other
               CFPOF computational time (s) : 1.046875
       ===========================END==========================
       {37: 0.6637168141592921, 94: 0.6548672566371682, 105: 0.7610619469026548, ..., 19075: 0.46017699115044247, 23660: 0.36283185840707965}
+      
+Now we define our own values for the difference arguments required by CFPOF :
+      
+      >cfpof.py dataset:chess.num maxLength:2 sampleSize:10000 printCFPOF:0
+      ===========================BEGIN===========================
+      ===============Under submission for CNRIA'20===============
+      CFPOF calculation ...
+      Dataset :  chess.num
+              Preprocessing time (s) : 0.125
+              CFPOF computational time (s) : 7.21875
+      ============================END============================
