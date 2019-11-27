@@ -54,9 +54,10 @@ if __name__ == "__main__":
     m,M=1,3
     try:
         M= int(myArgs["maxLength"])
+        print("\tMaximum length :",M)
     except KeyError:
         M=3
-        print("\tNo given maximum length constraint.\n\t\tMaximum length : 3 by default.")
+        print("\tNo given maximum length constraint.\n\t\tMaximum length :",M,"by default.")
     som=0
     Cnk={}
     with open(dataset, 'r') as base:
@@ -89,6 +90,7 @@ if __name__ == "__main__":
     sampleSize=1000
     try:
         sampleSize= int(myArgs["sampleSize"])
+        print("\tSample size :",sampleSize)
     except KeyError:
         sampleSize=1000
         print("\tNo given sample size.\n\t\tSample size :",sampleSize,"by default.")
