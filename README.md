@@ -9,6 +9,8 @@ The main syntax to run the CFPOF algorithm is bellow :
 
   <i>\>cfpof.py <b>dataset:</b>\<the name of the dataset\>  <b>maxLength:</b>\<the maximum length constraint\> <b>sampleSize:</b>\<the number of patterns to draw\> <b>printCFPOF:</b>\<<b>1</b> if you want to print the values, <b>0</b> otherwise\></i>
 
+<b>NB:</b> Python 3.7 was used during the implementation. 
+
 <h2> Somme experiments with the <i>chess</i> dataset </h2>
 
 The minimum information that CFPOF requires is the name of the dataset. If the others required values are not given, then it uses the default ones.
