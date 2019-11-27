@@ -11,7 +11,7 @@ The main syntax to run the CFPOF algorithm is bellow :
 
 <h2> Somme experiments with the <i>chess</i> dataset </h2>
 
-The minimum information that CFPOF wants is the name of the dataset. If the others required values are not given, then it uses the default values.
+The minimum information that CFPOF requires is the name of the dataset. If the others required values are not given, then it uses the default ones.
 
       >cfpof.py dataset:chess.num
       ===========================BEGIN===========================
