@@ -7,4 +7,4 @@ This directory contains our additional materials for submission to the CNRIA'20 
 
 The main syntax to run the CFPOF algorithm is bellow : 
 
-  />cfpof.py dataset: 
+  <i>/>cfpof.py <b>dataset:</b>/<the name of the dataset/>  <b>maxLength:</b>/<the maximum length constraint/> <b>sampleSize:</b>/<the number of patterns to draw/> <b>printCFPOF:</b>/<<b>1</b> if you want to print the values, <b>0</b> otherwise/></i>
