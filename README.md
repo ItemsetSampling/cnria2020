@@ -55,8 +55,10 @@ Now we define our own values for the difference arguments required by CFPOF :
       ===============Under submission for CNRIA'20===============
       CFPOF calculation ...
       Dataset :  chess.num
-              Preprocessing time (s) : 0.125
-              CFPOF computational time (s) : 7.21875
+              Maximum length : 2
+              Preprocessing time (s) : 0.09375
+              Sample size : 10000
+              CFPOF computational time (s) : 6.65625
       ============================END============================
       
       
