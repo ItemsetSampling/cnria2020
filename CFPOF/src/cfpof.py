@@ -79,7 +79,7 @@ if __name__ == "__main__":
             except KeyError:
                 Cnk[size]=[0]
                 for k in range(1,maxLen+1):
-                    Cnk[size].append(Cnk[size][k-1]+combin(maxLen, k))
+                    Cnk[size].append(Cnk[size][k-1]+combin(size, k))
                 som+=Cnk[size][-1]
             somWeight.append(som)
             line=base.readline()
